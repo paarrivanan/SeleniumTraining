@@ -36,7 +36,7 @@ public class demo {
 	commonUtils util;
 
 	@Test
-	void program1() {
+	void program13() {
 
 		System.out.println(" Test 1 Starts here ==>   ");
 		System.out.println(" Sprint 1 Changes ==>   ");
