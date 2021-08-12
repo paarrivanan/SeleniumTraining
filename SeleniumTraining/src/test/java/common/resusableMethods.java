@@ -18,6 +18,10 @@ public class resusableMethods {
 		//System.out.println(name+"'s First name is ==> " + fName);
 		System.out.println(name+"'s City is ==> " + city);
 		System.out.println(name+"'s Country is ==> " + country);
+
+		System.out.println("the result end here");
+		System.out.println("the result end ");
+
 	}
 
 }
