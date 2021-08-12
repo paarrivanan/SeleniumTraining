@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="methods" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mavenDemo.demo">
+      <class name="mavenDemo.gitTest">
         <methods>
-          <include name="aSuite"/>
-          <include name="program3"/>
           <include name="teardown"/>
-          <include name="program2"/>
+          <include name="sikuliTest"/>
           <include name="setup"/>
-          <include name="frames"/>
-          <include name="alert"/>
-          <include name="bSuite"/>
-          <include name="webTable"/>
         </methods>
-      </class> <!-- mavenDemo.demo -->
+      </class> <!-- mavenDemo.gitTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
