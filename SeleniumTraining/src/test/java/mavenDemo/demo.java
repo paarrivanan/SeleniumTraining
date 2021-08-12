@@ -40,6 +40,7 @@ public class demo {
 
 		System.out.println(" Test 1 Starts here ==>   ");
 		System.out.println(" Sprint 1 Changes ==>   ");
+		System.out.println(" Git Changes ==>   ");
 
 		//Launch your browser and navigate to a specific URL
 		driver.get("https://google.co.in");
