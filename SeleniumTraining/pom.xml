@@ -89,7 +89,7 @@
 					<version>2.22.1</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>C:\Users\paarrivananm\eclipse-workspace\SeleniumTraining\testng.xml</suiteXmlFile>
+							<suiteXmlFile>../SeleniumTraining/testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
