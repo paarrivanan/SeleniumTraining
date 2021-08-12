@@ -39,21 +39,6 @@ public class commonUtils {
 		}
 
 	}
-	
-
-	public WebElement explicitWait2(By by, int time) {
-		WebElement ele;		
-		try {
-			WebDriverWait wait = new WebDriverWait(driver, time);
-			ele = wait.until(ExpectedConditions.elementToBeSelected(by));
-			return ele;
-		}
-		catch(NoSuchElementException e) {
-			System.out.println("Element not found in the desired time");
-			return null;
-		}
-
-	}
 
 	public void initReporter() {
 		//Initiate my Extent report
