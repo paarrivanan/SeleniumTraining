@@ -1,5 +1,6 @@
 package mavenDemo;
 
+import org.testng.annotations.Test;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
@@ -19,6 +20,7 @@ import org.testng.annotations.Test;
 import org.sikuli.script.*;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class gitTest {
 
