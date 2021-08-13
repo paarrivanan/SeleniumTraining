@@ -25,7 +25,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class gitTest {
 
 	WebDriver driver; 
-
 	@Test
 	public void gitpush() throws InterruptedException, AWTException {
 
@@ -40,65 +39,57 @@ public class gitTest {
 		builder.moveToElement(ele).click().build().perform();
 		Thread.sleep(3000);
 
+		enterText("Sample.xml");
+//		Thread.sleep(150);
+//		robot.keyPress(KeyEvent.VK_A);
+//		robot.keyPress(KeyEvent.VK_M);
+//		robot.keyPress(KeyEvent.VK_P);
+//		robot.keyPress(KeyEvent.VK_L);
+//		robot.keyPress(KeyEvent.VK_E);
+//		robot.keyPress(KeyEvent.VK_PERIOD);
+//		robot.keyPress(KeyEvent.VK_X);
+//		robot.keyPress(KeyEvent.VK_M);
+//		robot.keyPress(KeyEvent.VK_L);
+//		Thread.sleep(150);
+		
 
-		//enterText("D:\\Training\\Selenium\\Sample.jpg");
-		Robot robot = new Robot();
-		robot.keyPress(KeyEvent.VK_SHIFT);
-		robot.keyPress(KeyEvent.VK_S);
-		robot.keyRelease(KeyEvent.VK_SHIFT);
-		robot.keyRelease(KeyEvent.VK_SLASH);
-
-		//		Thread.sleep(150);
-		//		robot.keyPress(KeyEvent.VK_A);
-		//		robot.keyPress(KeyEvent.VK_M);
-		//		robot.keyPress(KeyEvent.VK_P);
-		//		robot.keyPress(KeyEvent.VK_L);
-		//		robot.keyPress(KeyEvent.VK_E);
-		//		robot.keyPress(KeyEvent.VK_PERIOD);
-		//		robot.keyPress(KeyEvent.VK_J);
-		//		robot.keyPress(KeyEvent.VK_P);
-		//		robot.keyPress(KeyEvent.VK_G);
-		//		Thread.sleep(150);
-		//		robot.keyPress(KeyEvent.VK_ENTER);
-
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 
 
 	}
 
-	@Test
 	void sikuliTest() throws InterruptedException, FindFailed {
 		//Launch your browser and navigate to a specific URL
 		driver.get("https://www.demoqa.com/automation-practice-form");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
-		
+
 		String filepath = "D:\\Training\\Selenium\\";
-		
+
 		boolean val1 = new File(filepath + "filesName_Image.png").exists();
 		boolean val2 = new File(filepath + "open_Image.png").exists();
-		
+
 		System.out.println("file -> "+ val1 + " . Open - " + val2);
-		
+
 
 		WebElement ele = driver.findElement(By.xpath("//*[@id='uploadPicture']"));
 		//ele.click();
 		Actions builder = new Actions(driver);
 		builder.moveToElement(ele).click().build().perform();
 		Thread.sleep(3000);
-		
+
 		Screen s = new Screen();		
 		//s.click(filepath + "documents_Image.png");
 		Pattern FileInputPath = new Pattern(filepath + "filesName_Image.png");
 		Thread.sleep(2000);
 		Pattern OpenPath = new Pattern(filepath + "filesName_Image.png");
 		Thread.sleep(2000);
-		
+
 		s.type(FileInputPath, filepath + "Sample.jpg");
 		Thread.sleep(2000);
 		s.click(OpenPath);
 		Thread.sleep(2000);
-		
+
 	}
 
 	@BeforeMethod
@@ -134,6 +125,8 @@ public class gitTest {
 			b++;
 			Thread.sleep(150);
 		}
+		
+		robot.keyPress(KeyEvent.VK_ENTER);
 
 	}
 }

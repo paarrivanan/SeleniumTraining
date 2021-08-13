@@ -1,93 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-12T20:12:16 IST" name="Suite" finished-at="2021-08-12T20:13:47 IST" duration-ms="91195">
+  <suite started-at="2021-08-13T10:27:44 IST" name="Default suite" finished-at="2021-08-13T10:28:02 IST" duration-ms="17606">
     <groups>
     </groups>
-    <test started-at="2021-08-12T20:12:16 IST" name="Test" finished-at="2021-08-12T20:13:47 IST" duration-ms="91195">
-      <class name="mavenDemo.demo">
-        <test-method is-config="true" signature="bSuite()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:15 IST" name="bSuite" finished-at="2021-08-12T20:12:16 IST" duration-ms="814" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:16 IST" name="setup" finished-at="2021-08-12T20:12:19 IST" duration-ms="3223" status="PASS">
+    <test started-at="2021-08-13T10:27:44 IST" name="Default test" finished-at="2021-08-13T10:28:02 IST" duration-ms="17606">
+      <class name="mavenDemo.gitTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mavenDemo.gitTest@3c7f66c4]" started-at="2021-08-13T10:27:44 IST" name="setup" finished-at="2021-08-13T10:27:47 IST" duration-ms="2624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="alert()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:19 IST" name="alert" finished-at="2021-08-12T20:12:32 IST" duration-ms="12160" status="PASS">
+        <test-method signature="gitpush()[pri:0, instance:mavenDemo.gitTest@3c7f66c4]" started-at="2021-08-13T10:27:47 IST" name="gitpush" finished-at="2021-08-13T10:28:01 IST" duration-ms="14056" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alert -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:32 IST" name="teardown" finished-at="2021-08-12T20:12:32 IST" duration-ms="793" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:32 IST" name="setup" finished-at="2021-08-12T20:12:35 IST" duration-ms="2979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="frames()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:35 IST" name="frames" finished-at="2021-08-12T20:12:45 IST" duration-ms="9285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- frames -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:45 IST" name="teardown" finished-at="2021-08-12T20:12:46 IST" duration-ms="1537" status="PASS">
+        </test-method> <!-- gitpush -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:mavenDemo.gitTest@3c7f66c4]" started-at="2021-08-13T10:28:01 IST" name="teardown" finished-at="2021-08-13T10:28:02 IST" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:46 IST" name="setup" finished-at="2021-08-12T20:12:47 IST" duration-ms="1219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="program15()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:47 IST" name="program15" finished-at="2021-08-12T20:12:50 IST" duration-ms="2544" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- program15 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:50 IST" name="teardown" finished-at="2021-08-12T20:12:51 IST" duration-ms="621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:51 IST" name="setup" finished-at="2021-08-12T20:12:52 IST" duration-ms="1521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="program2()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:12:52 IST" name="program2" finished-at="2021-08-12T20:13:12 IST" duration-ms="19414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- program2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:13:12 IST" name="teardown" finished-at="2021-08-12T20:13:12 IST" duration-ms="875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:13:12 IST" name="setup" finished-at="2021-08-12T20:13:14 IST" duration-ms="1646" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="program3()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:13:14 IST" name="program3" finished-at="2021-08-12T20:13:35 IST" duration-ms="21290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- program3 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:13:35 IST" name="teardown" finished-at="2021-08-12T20:13:36 IST" duration-ms="1086" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:13:36 IST" name="setup" finished-at="2021-08-12T20:13:38 IST" duration-ms="1551" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="webTable()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:13:38 IST" name="webTable" finished-at="2021-08-12T20:13:46 IST" duration-ms="7682" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webTable -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:13:46 IST" name="teardown" finished-at="2021-08-12T20:13:47 IST" duration-ms="1688" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="aSuite()[pri:0, instance:mavenDemo.demo@242b836]" started-at="2021-08-12T20:13:47 IST" name="aSuite" finished-at="2021-08-12T20:13:50 IST" duration-ms="2805" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aSuite -->
-      </class> <!-- mavenDemo.demo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- mavenDemo.gitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
