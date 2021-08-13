@@ -21,6 +21,11 @@ public class resusableMethods {
 
 		System.out.println("the result end here");
 		System.out.println("the result end ");
+		System.out.println("All records fetched from the table ");
+		System.out.println("Successfull ");
+		
+		
+		
 
 	}
 
