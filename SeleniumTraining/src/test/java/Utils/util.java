@@ -1,7 +1,8 @@
 package Utils;
 
 public class util {
-public void scrollScreen() {
-	
-}
+	public void scrollDown() {
+		
+	}
+
 }
